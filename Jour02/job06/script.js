@@ -4,7 +4,7 @@ let main = document.getElementById("main");
 let footer = document.getElementById("footer");
 
 
-let liste = ["k", "o", "n", "a", "m", "i"];
+let liste = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
 
 function changeColor() {
     document.addEventListener("keydown", (event) => {
@@ -19,10 +19,10 @@ function changeColor() {
                 main.style.backgroundColor = "#ddd7d0";
                 footer.style.backgroundColor = "#005FFF";
 
-                liste = ["k", "o", "n", "a", "m", "i"];
+                liste = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"]
             }
         } else {
-            liste = ["k", "o", "n", "a", "m", "i"];
+            liste = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
         }
     });
 }
