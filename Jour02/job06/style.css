@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd7d0;
+}
+header {
+    height: 150px;
+}
+main {
+    height: calc(100vh - 200px);
+}
+
+footer{
+    height: 50px;
+}
