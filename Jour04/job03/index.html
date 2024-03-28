@@ -7,12 +7,23 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Afficher Pokemon</h1>
     <form>
         <input type="text" name="id" placeholder="ID" id="id">
         <input type="text" name="nom" id="nom" placeholder="nom">
-        <select name="liste" id="type-liste"></select>
+        <select name="liste" id="type-liste">
+            <option value="">-- Selectionner le type de votre pokemon</option>
+            <option value="Grass">Plante</option>
+            <option value="Fire">Feu</option>
+            <option value="Water">Eau</option>
+            <option value="Poison">Poison</option>
+            <option value="Bug">Insecte</option>
+            <option value="Flying">Vol</option>
+            <option value="Normal">Normal</option>
+        </select>
         <input type="button" value="filtrer">
     </form>
+    <div id="information"></div>
 
     <script src="script.js"></script>
 </body>
