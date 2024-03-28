@@ -1,0 +1,39 @@
+[
+
+    {
+        "id" : 1,
+        "nom" : "Test",
+        "prenom" : "Ayman",
+        "email" : "ayman.test@laplateforme.io"
+    },
+    {
+        "id" : 2,
+        "nom" : "Ghollamallah",
+        "prenom" : "Youssef",
+        "email" : "you.gh@laplateforme.io"
+    },
+    {
+        "id" : 3,
+        "nom" : "Kantar",
+        "prenom" : "Bertrand",
+        "email" : "bertrand.test@laplateforme.io"
+    },
+    {
+        "id" : 4,
+        "nom" : "Usual",
+        "prenom" : "Justine",
+        "email" : "justine.test@laplateforme.io"
+    },
+    {
+        "id" : 5,
+        "nom" : "bucheron",
+        "prenom" : "Bastien",
+        "email" : "bastien.test@laplateforme.io"
+    },
+    {
+        "id" : 6,
+        "nom" : "Kaiden",
+        "prenom" : "Mathieu",
+        "email" : "mathieu.test@laplateforme.io"
+    }
+]
