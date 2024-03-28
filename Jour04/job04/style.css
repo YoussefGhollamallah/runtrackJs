@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px 15px;
+
+}
+
+header {
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    background-color: beige;
+    
+}
+
+button {
+    margin-top: 100px;
+    padding: 10px 15px;
+
+}
+
+footer {
+    height: 100px;
+    background-color: blue;
+}
