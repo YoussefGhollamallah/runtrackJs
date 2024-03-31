@@ -40,6 +40,7 @@ header {
 main {
     min-height: calc(100vh - 200px);
     padding: 10px 0;
+    background-color: bisque;
 }
 
 footer {
@@ -47,6 +48,10 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100px;
+}
+
+section {
+    background-color: #eee7e7;
 }
 
 
@@ -75,9 +80,100 @@ section h1 {
 
 
 
+/* connexion */
+
+#connexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#connexion section {
+    width: 500px;
+    padding: 20px;
+    box-shadow:-4px -2px 18px -1px rgba(0,0,0,0.81);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2em;
+}
+
+.form ul li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 1.1em;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+input:focus {
+    outline: none;
+    font-size: 1.1em;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 1.1em;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 150px;
+    
+}
+
+button:hover {
+    padding: 6px 17px;
+    font-size: 1.2em;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
 
 
+/* inscription */
 
+#inscription section {
+    width: 500px;
+    padding: 20px;
+    box-shadow:-4px -2px 18px -1px rgba(0,0,0,0.81);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* MOBILE SCREEN */
 
