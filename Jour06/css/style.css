@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
-main {
+body {
     background-color: #DCDCDC;
+}
+
+@media  screen and (max-width: 600px ) {
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer > article {
+        width: 390px !important;
+        }
+    
 }
