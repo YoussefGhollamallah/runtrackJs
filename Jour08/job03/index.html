@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="flex justify-center h-28 bg-slate-400">
+        <nav class="content-center">
+            <ul class="flex gap-3">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="h-screen">
+        <form action="GET">
+            <div>
+                <div>
+                    <input type="radio" name="homme" id="homme">
+                    <label for="homme">Homme</label>
+                </div>
+                <div>
+                    <input type="radio" name="femme" id="femme">
+                    <label for="femme">Femme</label>
+                </div>
+                <div>
+                    <input type="radio" name="autre" id="autre">
+                    <label for="autre">autre</label>
+                </div>
+            </div>
+            <div>
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom"> 
+
+                <label for="prenom">Prenom:</label>
+                <input type="text" name="prenom" id="prenom">
+            </div>
+            <br>
+            <div>
+                <label for="adresse">adresse:</label>
+                <input type="text" name="adresse" id="adresse">
+            </div>
+            <br>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email">
+            
+                <label for="password">mot de passe:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <br>
+            <div class="checkboxe">
+                <h2>passions</h2>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="passion1">informatique</label><br>
+
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="passion2">voyages</label><br>
+
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="passion3">sport</label><br>
+
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="passion4">lecture</label><br>
+            </div>
+            <input type="button" value="valider">
+        </form>
+    </main>
+    
+    <footer class="flex justify-center h-28 bg-slate-400">
+        <nav class="content-center">
+            <ul class="flex gap-3">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </nav>
+        
+    </footer>
+</body>
+</html>
